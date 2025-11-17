@@ -17,7 +17,7 @@ function RegisterCallbacks()
 			Wait(100)
 		end
 
-		local motd = GetConvar('motd', 'Welcome to Content Coast')
+		local motd = GetConvar('motd', 'Welcome to Hades Framework!')
 		Database.Game:find({
 			collection = 'changelogs',
 			options = {
